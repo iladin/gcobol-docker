@@ -1,0 +1,13 @@
+{
+  "name": "GCC COBOL Dev Container",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": "."
+  },
+  "customizations": {
+      "settings": {},
+      "extensions": [],
+    },
+  "postCreateCommand": "",
+  "remoteUser": "root"
+}
